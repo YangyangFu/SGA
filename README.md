@@ -21,11 +21,15 @@ approximate the behavior of the original fitness function in the optimization
 process.
 
 ## Methodology
+![alt text](https://github.com/YangyangFu/SGA/blob/master/SGA/Resources/images/sga.eps)
 
 ## Installation
+1. Download the package to local computer.
+2. Add package to Matlab path in local computer.
+3. Run example SGA/Examples/run_P8.m by setting <code>surrogateuse=0</code> to test conventional GA without surrogate, and setting <code>surrogateuse=0</code> to test surrogate-assisted GA.
 
 ## Cite as
-
+Jiachen Mao, Yangyang Fu, Afshin Afshari, Peter R. Armstrong, Leslie K. Norford, Optimization-aided calibration of an urban microclimate model under uncertainty, Building and Environment, Volume 143, 2018, Pages 390-403, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2018.07.034.
 ## Contact
 <b>Yangyang Fu</b>
 
