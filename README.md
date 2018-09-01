@@ -21,7 +21,9 @@ approximate the behavior of the original fitness function in the optimization
 process.
 
 ## Methodology
-![alt text](https://github.com/YangyangFu/SGA/blob/master/SGA/Resources/images/sga.eps)
+<img src="https://github.com/YangyangFu/SGA/blob/master/SGA/Resources/images/sga.png" alt="drawing" width="300"/>
+
+
 
 ## Installation
 1. Download the package to local computer.
