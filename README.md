@@ -23,7 +23,19 @@ process.
 ## Methodology
 <img src="https://github.com/YangyangFu/SGA/blob/master/SGA/Resources/images/sga.png" alt="drawing" width="300"/>
 
+<img src="https://github.com/YangyangFu/SGA/blob/master/SGA/Resources/images/sga-psudocode.png" alt="drawing" width="600"/>
 
+At generation ``t``, a surrogate (SVR) model needs to be updated if its accuracy is not acceptable. The
+SVR model is trained using the database ``D`` that consists of previous
+populations ``P`` and their expensive evaluations F<sub>E,P</sub> (Steps 5-10). Then,
+crossover and mutation operators are used to generate a surrogate population
+``S`` (with size |S| > |P|) (Step 11). The SVR approximates the
+objective values in ``S`` (Step 12), and the F<sub>S</sub> ranks ``S`` (Step 13) with the
+highest ranking solutions inserted into the offspring population ``Q`` (with
+size ``|Q|=|P|``) (Step 14). ``Q`` are then evaluated using the expensive 
+simulations, which will be appended into the database ``D`` if they
+are not in ``D`` before. Finally, the offspring ``Q`` are assigned to be the parent
+``P`` in the next generation.
 
 ## Installation
 1. Download the package to local computer.
