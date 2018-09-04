@@ -1,5 +1,5 @@
 # SGA
-Surrogate-assisted Genetic Algorithm developed for constrainted mixed integer programming problem.
+Surrogate-assisted Genetic Algorithm developed for constrainted mixed integer programming problem. For now, it only supports single objective optimization.
 
 ## Introduction
 Evolutionary algorithms (EAs) have been widely used in a variety of
